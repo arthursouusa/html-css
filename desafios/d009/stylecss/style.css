@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+h1, h2, p, a{
+    font-family: Lexend;
+    color: whitesmoke;
+}
+
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+img.unico{
+    width: 50px;
+}

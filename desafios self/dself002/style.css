@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #536632, #6b8240, #7DB11D);
+}
+
+main{
+    max-width: 850px;
+    padding: 50px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #556040;
+}
+
+h1{
+    text-align: center;
+    font-family: Lexend;
+    font-size: 3em;
+    color: #8FDB00;
+}
+
+h2{
+    font-family: Lexend;
+    font-size: 2em;
+    color: #4fa110;
+}
+
+p{
+    font-family: Lusitana, 'Work sans', sans-serif;
+    text-align: justify;
+    font-size: 18px;
+}
+
+li{
+    font-family: Lusitana, 'Work sans', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+img{
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #767676;
+}
+
+a{
+    color: #8FDB00;
+}
