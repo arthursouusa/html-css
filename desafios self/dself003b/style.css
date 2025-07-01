@@ -40,7 +40,8 @@
 }
 
 body{
-    background-image: linear-gradient(to right, #493432);
+    background: #493432 url('https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') center center no-repeat fixed;
+    background-size: cover;
 }
 
 header{
@@ -152,7 +153,7 @@ section{
     margin-bottom: 30px;
 }
 
-section h3{
+section > h3{
     font-family: var(--listafonte);
     font-weight: normal;
     color: var(--cor06);
@@ -208,6 +209,51 @@ li{
 img{
     box-shadow: 3px 3px 10px var(--blackshadow);
     max-width: 100%;
+}
+
+#container{
+    background-color: var(--cor08);
+    max-width: 850px;
+    height: 400px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 5px;
+    position: relative;
+}
+
+#conteúdo{
+    text-align: left;
+    background-color: var(--cor03);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    border-radius: 10px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#conteúdo > h3{
+    font-family: var(--listafonte);
+    font-weight: normal;
+    color: var(--cor06);
+    font-size: 1.8em;
+    margin: 20px;
+    text-align: center;
+}
+
+#conteúdo > ul > li > a{
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--cor05);
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+
+#conteúdo > ul > li > a:hover{
+    text-decoration: underline;
+    color: var(--cor04);
 }
 
 .underline{
